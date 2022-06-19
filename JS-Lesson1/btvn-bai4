@@ -1,0 +1,13 @@
+function tim_so_lon_nhat(a,b) {
+    if (a>b){
+        console.log(`${a}`+ ' ' + 'là số lớn nhất');
+    }
+    else if (a<b){
+        console.log(`${b}`+ ' ' + 'là số lớn nhất');
+    }
+}
+tim_so_lon_nhat(12,-9)
+tim_so_lon_nhat(6,6)
+tim_so_lon_nhat(-189,-987)
+tim_so_lon_nhat(-78,56)
+tim_so_lon_nhat(9.5,7.9)

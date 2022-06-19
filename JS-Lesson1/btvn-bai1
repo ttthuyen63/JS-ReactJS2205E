@@ -1,0 +1,11 @@
+let name;
+function tinhBMI(name ,height, weight) {
+if(height <= 0 || weight <= 0 ){
+    console.log('vui lòng nhập thông tin hợp lệ');
+}
+height = height / 100;
+const bmi = weight/(height*height);
+console.log('BMI của '+`${name}`+ ' là: '+ `${bmi}`);
+}
+tinhBMI('Marks', 169,78)
+tinhBMI('John', 195,92)
